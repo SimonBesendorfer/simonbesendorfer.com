@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "simonHP"
+  "defaultProject": "simonHP",
+  "cli": {
+    "analytics": false
+  }
 }

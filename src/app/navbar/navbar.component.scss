@@ -1,0 +1,36 @@
+.navbar {
+    background-color: #252525;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 100;
+    color: #c2c2c2 !important;
+    width: calc(100vw - 32px);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-top: 32px;
+    padding-right: 16px;
+    padding-bottom: 32px;
+}
+
+.home {
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.menue {
+    padding-top: 8px;
+    a {
+        margin-left: 16px;
+        &:hover {
+            color: white;
+            background-image: linear-gradient(#4b6cc1, #4b6cc1);
+            background-position: bottom left; /*Adjust the background-position to move the line*/
+            background-size: 60% 4px; /*Adjust the background size to control length and height*/
+            background-repeat: no-repeat;
+            padding-bottom: 8px;
+            transition: 0.2s ease-in-out;
+        }
+    }
+   
+}
