@@ -1,0 +1,58 @@
+.content {
+    display: flex;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.containerLeft {
+    width: 60%;
+}
+
+.containerRight {
+    width: 40%;
+}
+
+.preview {
+    width: 90%;
+    object-fit: contain;
+}
+
+h1, h2, h3, h4 {
+    color: #252525;
+}
+
+.btn {
+    cursor: pointer;
+    border-radius: 1000px;
+    background: #4b6cc1;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    color: #fff;
+    font-size: 32px;
+    padding: 20px;
+    border: 2px solid #4b6cc1;
+    transition: 0.2s ease-in-out;
+    &:hover {
+        background-color: white;
+        border: 2px solid #4b6cc1;
+        color:  #4b6cc1;
+        padding: 24px;
+    }
+}
+
+.container-btn {
+    position: relative;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+.techLine {
+    display: flex;
+    align-items: center;
+    opacity: 0.6;
+}

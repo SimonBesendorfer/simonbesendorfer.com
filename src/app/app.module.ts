@@ -9,6 +9,7 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactFooterComponent } from './contact-footer/contact-footer.component';
 import { LatestProjectComponent } from './latest-project/latest-project.component';
+import { RingOfFireComponent } from './ring-of-fire/ring-of-fire.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { LatestProjectComponent } from './latest-project/latest-project.componen
     WelcomeComponent,
     FooterComponent,
     ContactFooterComponent,
-    LatestProjectComponent
+    LatestProjectComponent,
+    RingOfFireComponent
   ],
   imports: [
     BrowserModule,
