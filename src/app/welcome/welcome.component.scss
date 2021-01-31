@@ -1,0 +1,56 @@
+.topBanner {
+    background-color: #252525;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 140px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
+    
+}
+
+img {
+    width: 300px;
+}
+
+.container-left {
+    width: 35vw;
+}
+
+.container-right {
+    width: 35vw;
+    text-align: center;
+
+}
+
+h2 {
+    color: #c2c2c2;
+    padding-top: 40px;
+}
+
+
+.btn {
+    cursor: pointer;
+    border-radius: 1000px;
+    background: #4b6cc1;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    color: #fff;
+    font-size: 32px;
+    padding: 20px;
+    border: 2px solid #4b6cc1;
+    transition: 0.2s ease-in-out;
+    &:hover {
+        background-color: #252525;
+        border: 2px solid #4b6cc1;
+        padding: 24px;
+    }
+}
+
+.container-btn {
+    position: relative;
+    text-align: center;
+    padding-top: 50px;
+}
