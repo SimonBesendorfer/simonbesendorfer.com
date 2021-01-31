@@ -8,6 +8,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactFooterComponent } from './contact-footer/contact-footer.component';
+import { LatestProjectComponent } from './latest-project/latest-project.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ContactFooterComponent } from './contact-footer/contact-footer.componen
     NavbarComponent,
     WelcomeComponent,
     FooterComponent,
-    ContactFooterComponent
+    ContactFooterComponent,
+    LatestProjectComponent
   ],
   imports: [
     BrowserModule,
