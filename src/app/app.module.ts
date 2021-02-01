@@ -14,6 +14,7 @@ import { ImprintComponent } from './imprint/imprint.component';
 import { ContactComponent } from './contact/contact.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ImpBotComponent } from './imp-bot/imp-bot.component';
+import { ElpollolocoComponent } from './elpolloloco/elpolloloco.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ImpBotComponent } from './imp-bot/imp-bot.component';
     ImprintComponent,
     ContactComponent,
     ProjectsComponent,
-    ImpBotComponent
+    ImpBotComponent,
+    ElpollolocoComponent
   ],
   imports: [
     BrowserModule,
