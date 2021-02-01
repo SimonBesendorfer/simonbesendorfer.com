@@ -17,6 +17,7 @@ import { ImpBotComponent } from './imp-bot/imp-bot.component';
 import { ElpollolocoComponent } from './elpolloloco/elpolloloco.component';
 import { JoinComponent } from './join/join.component';
 import { AboutComponent } from './about/about.component';
+import { PrivateComponent } from './private/private.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { AboutComponent } from './about/about.component';
     ImpBotComponent,
     ElpollolocoComponent,
     JoinComponent,
-    AboutComponent
+    AboutComponent,
+    PrivateComponent
   ],
   imports: [
     BrowserModule,
