@@ -12,6 +12,8 @@ import { LatestProjectComponent } from './latest-project/latest-project.componen
 import { RingOfFireComponent } from './ring-of-fire/ring-of-fire.component';
 import { ImprintComponent } from './imprint/imprint.component';
 import { ContactComponent } from './contact/contact.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { ImpBotComponent } from './imp-bot/imp-bot.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { ContactComponent } from './contact/contact.component';
     LatestProjectComponent,
     RingOfFireComponent,
     ImprintComponent,
-    ContactComponent
+    ContactComponent,
+    ProjectsComponent,
+    ImpBotComponent
   ],
   imports: [
     BrowserModule,
