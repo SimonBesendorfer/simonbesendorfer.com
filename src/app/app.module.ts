@@ -10,6 +10,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ContactFooterComponent } from './contact-footer/contact-footer.component';
 import { LatestProjectComponent } from './latest-project/latest-project.component';
 import { RingOfFireComponent } from './ring-of-fire/ring-of-fire.component';
+import { ImprintComponent } from './imprint/imprint.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { RingOfFireComponent } from './ring-of-fire/ring-of-fire.component';
     FooterComponent,
     ContactFooterComponent,
     LatestProjectComponent,
-    RingOfFireComponent
+    RingOfFireComponent,
+    ImprintComponent
   ],
   imports: [
     BrowserModule,
