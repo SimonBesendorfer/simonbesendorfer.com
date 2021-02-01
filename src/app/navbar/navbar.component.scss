@@ -16,6 +16,24 @@
 .home {
     font-size: 32px;
     font-weight: 300;
+    background-image: linear-gradient(#4b6cc1, #4b6cc1);
+    background-position: bottom left; /*Adjust the background-position to move the line*/
+    background-size: 60% 4px; /*Adjust the background size to control length and height*/
+    background-repeat: no-repeat;
+    padding-bottom: 8px;
+    transition: 0.2s ease-in-out;
+    &:hover {
+        background-image: linear-gradient(#4b6cc1, #4b6cc1);
+        background-position: bottom left; /*Adjust the background-position to move the line*/
+        background-size: 40% 4px; /*Adjust the background size to control length and height*/
+        background-repeat: no-repeat;
+        padding-bottom: 8px;
+        transition: 0.2s ease-in-out; 
+    }
+
+    a {
+        color: white;
+    }
 }
 
 a {
@@ -27,6 +45,12 @@ a {
     padding-top: 8px;
     a {
         margin-left: 16px;
+        background-image: linear-gradient(#4b6cc1, #4b6cc1);
+        background-position: bottom left; /*Adjust the background-position to move the line*/
+        background-size: 0% 4px; /*Adjust the background size to control length and height*/
+        background-repeat: no-repeat;
+        padding-bottom: 8px;
+        transition: 0.2s ease-in-out;
         &:hover {
             color: white;
             background-image: linear-gradient(#4b6cc1, #4b6cc1);
