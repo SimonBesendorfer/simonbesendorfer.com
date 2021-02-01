@@ -16,6 +16,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ImpBotComponent } from './imp-bot/imp-bot.component';
 import { ElpollolocoComponent } from './elpolloloco/elpolloloco.component';
 import { JoinComponent } from './join/join.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { JoinComponent } from './join/join.component';
     ProjectsComponent,
     ImpBotComponent,
     ElpollolocoComponent,
-    JoinComponent
+    JoinComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
