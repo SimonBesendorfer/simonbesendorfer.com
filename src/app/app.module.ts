@@ -15,6 +15,7 @@ import { ContactComponent } from './contact/contact.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ImpBotComponent } from './imp-bot/imp-bot.component';
 import { ElpollolocoComponent } from './elpolloloco/elpolloloco.component';
+import { JoinComponent } from './join/join.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ElpollolocoComponent } from './elpolloloco/elpolloloco.component';
     ContactComponent,
     ProjectsComponent,
     ImpBotComponent,
-    ElpollolocoComponent
+    ElpollolocoComponent,
+    JoinComponent
   ],
   imports: [
     BrowserModule,
