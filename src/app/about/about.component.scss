@@ -9,7 +9,8 @@
     padding-left: 0;
     padding-right: 0;
     padding-bottom: 180px;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));   
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
+    text-align: center;   
 }
 
 h2 {
@@ -95,4 +96,28 @@ p {
 
 .birth {
     width: 80px;;
+}
+
+@media (max-width: 960px) {
+    .skillsline {
+        text-align: center;
+        width: 80vw;
+    }
+
+    .container {
+        justify-content: center;
+    }
+
+    .skillsBars {
+        width: 80vw;
+        justify-content: center;
+    }
+
+    .skillDescription {
+        width: 20vw !important;
+    }
+
+    .progressBar {
+        width: 40vw !important;
+    }
 }

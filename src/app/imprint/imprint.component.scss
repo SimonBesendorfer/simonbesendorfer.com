@@ -8,14 +8,16 @@
     padding-right: 0;
     padding-bottom: 180px;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));   
+    h1 {
+        text-align: center;
+    }
 }
 
 .title {
     padding-top: 24px;
     width: 80vw;
     border-bottom: 4px solid #c2c2c2;
-    
-}
+ }
 
 .container {
     display: flex;
@@ -34,8 +36,14 @@
 
 p {
     font-family: 'Raleway', sans-serif;
+    word-wrap: break-word;
 }
 
 ul, li {
     font-family: 'Raleway', sans-serif;
+    word-wrap: break-word;
+}
+
+a {
+    word-wrap: break-word;
 }

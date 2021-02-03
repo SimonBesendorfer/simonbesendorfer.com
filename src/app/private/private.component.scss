@@ -49,3 +49,23 @@ img {
     height: 30vw;
     padding: 2%;
 }
+
+@media (max-width: 760px) {
+    .mobileColumn {
+        display: flex;
+        flex-direction: column;
+    }
+
+    img {
+        width: 100%;
+        padding: 0;
+        padding-top: 8px !important;
+        height: 100% !important;
+    }
+
+    .mobileText {
+        text-align: center !important;
+        display: flex;
+        flex-direction: column;
+    }
+}

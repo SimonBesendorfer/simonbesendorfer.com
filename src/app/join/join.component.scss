@@ -58,3 +58,21 @@ h1, h2, h3, h4 {
     align-items: center;
     opacity: 0.6;
 }
+
+@media (max-width: 960px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .containerLeft, .containerRight {
+        width: 90% !important;
+        align-items: center !important;
+        text-align: center !important;
+    }
+
+    .techLine {
+        justify-content: center !important;
+    }
+
+}
