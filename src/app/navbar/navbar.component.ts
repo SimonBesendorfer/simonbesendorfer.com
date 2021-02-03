@@ -9,13 +9,14 @@ export class NavbarComponent implements OnInit {
 
   constructor() { }
 
+  showMenue = false;
+
   ngOnInit(): void {
   }
 
   openMenue() {
-    console.log('open');
+    console.log(this.showMenue);
+    this.showMenue = true;
+    console.log(this.showMenue);
   }
-
-
-
 }
