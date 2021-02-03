@@ -76,3 +76,22 @@ a {
         }
     }
 }
+
+@media (max-width: 960px) {
+    .contact-footer {
+        flex-direction: column !important;
+        padding-top: 32px;
+    }
+
+    .container-right, .container-left {
+        width: 90vw !important;
+    }
+
+    .container-btn {
+        padding-bottom: 32px;
+    }
+
+    .container-right {
+        align-items: center !important;
+    }
+}

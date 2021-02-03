@@ -21,7 +21,7 @@
     background-size: 60% 4px; /*Adjust the background size to control length and height*/
     background-repeat: no-repeat;
     padding-bottom: 8px;
-    transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out !important;
     &:hover {
         background-image: linear-gradient(#4b6cc1, #4b6cc1);
         background-position: bottom left; /*Adjust the background-position to move the line*/
@@ -35,6 +35,17 @@
         color: white;
     }
 }
+
+.is-active {
+    background-image: linear-gradient(#4b6cc1, #4b6cc1) !important;
+    background-position: bottom left !important;
+    background-size: 60% 4px !important;
+    background-repeat: no-repeat !important;
+    padding-bottom: 8px !important;
+    transition: 0.2s ease-in-out !important;
+    color: white !important;
+}
+
 
 a {
     color: #c2c2c2;
@@ -60,6 +71,27 @@ a {
             padding-bottom: 8px;
             transition: 0.2s ease-in-out;
         }
+    }  
+}
+
+@media (max-width: 960px) {
+    .hideMobile {
+        display: none;
     }
-   
+
+    .home {
+        font-size: 24px !important;
+    }
+}
+
+@media (max-width: 580px) {
+    .home {
+        font-size: 18px !important;
+    }
+
+    .navbar {
+        padding-left: 18px !important;
+        padding-right: 18px !important;
+        width: calc(100vw - 36px) !important;
+    }
 }

@@ -54,3 +54,21 @@ h2 {
     text-align: center;
     padding-top: 50px;
 }
+
+@media (max-width: 960px) {
+    .topBanner {
+        flex-direction: column;
+        width: 100vw !important;
+        align-items: center !important;
+    }
+    .container-left {
+        width: 90vw !important;
+        text-align: center !important;
+    }
+    
+    .container-right {
+        width: 90vw !important;
+        align-items: center !important;
+        padding-top: 36px;
+    }
+}
