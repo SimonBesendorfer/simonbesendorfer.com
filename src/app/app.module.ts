@@ -18,6 +18,7 @@ import { ElpollolocoComponent } from './elpolloloco/elpolloloco.component';
 import { JoinComponent } from './join/join.component';
 import { AboutComponent } from './about/about.component';
 import { PrivateComponent } from './private/private.component';
+import { BurgerMenueComponent } from './burger-menue/burger-menue.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { PrivateComponent } from './private/private.component';
     ElpollolocoComponent,
     JoinComponent,
     AboutComponent,
-    PrivateComponent
+    PrivateComponent,
+    BurgerMenueComponent
   ],
   imports: [
     BrowserModule,
