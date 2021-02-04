@@ -53,7 +53,7 @@
         
     </nav>
 </div>
-<div *ngIf="showMenue"  class="navMobile">
+<div [class.navMobileOpen]="showMenue"  class="navMobile">
     <ul>
         <li><a routerLink="/projects" (click)="showMenue = false">Projects</a></li>
         <li><a routerLink="/about" (click)="showMenue = false">About</a></li>
