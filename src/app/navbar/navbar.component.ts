@@ -16,7 +16,13 @@ export class NavbarComponent implements OnInit {
 
   openMenue() {
     console.log(this.showMenue);
-    this.showMenue = true;
+
+    if (!this.showMenue) {
+      this.showMenue = true;
+    } else {
+      this.showMenue = false;
+    }
+    
     console.log(this.showMenue);
   }
 }
