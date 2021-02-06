@@ -8,15 +8,15 @@
         <h2>Contact</h2>      
     </div>
     <form action="mailto:simon.besendorfer@me.com" method="POST" enctype="text/plain">
-        <div>
+        <div class="inputArea">
             <h3>Name</h3>
-            <input type="text" name="name">
+            <input required minlength="3" type="text" name="name">
             <h3>e-Mail</h3>
             <input type="email" name="mail">
             <h3>your Message</h3>
-            <textarea type="text" name="message"></textarea>
+            <textarea required minlength="10" type="text" name="message"></textarea>
             <div class="container-btn">
-                <input class="btn" style="width: auto; height: auto;" type="submit" value="send Message">
+                <button class="btn" style="width: auto; height: auto;" type="submit">send Message</button>
             </div>
         </div>
     </form>

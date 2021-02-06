@@ -86,3 +86,17 @@ textarea {
     text-align: center;
     padding-top: 50px;
 }
+
+@media(max-width: 960px) {
+    input {
+        width: 80vw;
+    }
+    textarea {
+        width: 80vw;
+    }
+    .inputArea {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
