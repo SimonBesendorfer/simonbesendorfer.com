@@ -7,16 +7,16 @@
     <div class="title">
         <h2>Contact</h2>      
     </div>
-    <form>
+    <form action="mailto:simon.besendorfer@me.com" method="POST" enctype="text/plain">
         <div>
             <h3>Name</h3>
-            <input>
+            <input type="text" name="name">
             <h3>e-Mail</h3>
-            <input>
+            <input type="email" name="mail">
             <h3>your Message</h3>
-            <textarea></textarea>
+            <textarea type="text" name="message"></textarea>
             <div class="container-btn">
-                <a class="btn">send Message</a>
+                <input class="btn" style="width: auto; height: auto;" type="submit" value="send Message">
             </div>
         </div>
     </form>
