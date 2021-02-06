@@ -18,6 +18,8 @@ import { ElpollolocoComponent } from './elpolloloco/elpolloloco.component';
 import { JoinComponent } from './join/join.component';
 import { AboutComponent } from './about/about.component';
 import { PrivateComponent } from './private/private.component';
+import { RingoffireDetailComponent } from './ring-of-fire/ringoffire-detail/ringoffire-detail.component';
+import { ImpbotDetailComponent } from './imp-bot/impbot-detail/impbot-detail.component';
 
 
 @NgModule({
@@ -38,6 +40,8 @@ import { PrivateComponent } from './private/private.component';
     JoinComponent,
     AboutComponent,
     PrivateComponent,
+    RingoffireDetailComponent,
+    ImpbotDetailComponent,
     
   ],
   imports: [

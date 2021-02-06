@@ -6,7 +6,7 @@
 
 .containerLeft {
     width: 60%;
-    display: flex;
+    //display: flex;
     justify-content: center;
 }
 
@@ -26,6 +26,7 @@ h1, h2, h3, h4 {
 .btn {
     cursor: pointer;
     border-radius: 1000px;
+    text-decoration: none;
     background: #4b6cc1;
     font-family: 'Raleway', sans-serif;
     font-weight: 200;

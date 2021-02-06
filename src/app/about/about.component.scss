@@ -98,6 +98,24 @@ p {
     width: 80px;;
 }
 
+.subHeadContainer {
+    display: flex;
+    justify-content: space-between
+}
+
+.subHeadLeft {
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    img {
+        width: 25vw;
+    }
+}
+
+.subHeadRight {
+    width: 50%;
+}
+
 @media (max-width: 960px) {
     .skillsline {
         text-align: center;
@@ -119,5 +137,20 @@ p {
 
     .progressBar {
         width: 40vw !important;
+    }
+
+    .subHeadContainer {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .subHeadLeft {
+        width: 100%;
+        img {
+            width: 80vw;
+        }
+    }
+    .subHeadRight {
+        width: 80vw;
     }
 }
