@@ -23,6 +23,8 @@ import { ImpbotDetailComponent } from './imp-bot/impbot-detail/impbot-detail.com
 import { ElpollolocoDetailComponent } from './elpolloloco/elpolloloco-detail/elpolloloco-detail.component';
 import { JoinDetailComponent } from './join/join-detail/join-detail.component';
 
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+
 
 @NgModule({
   declarations: [
@@ -52,7 +54,7 @@ import { JoinDetailComponent } from './join/join-detail/join-detail.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
